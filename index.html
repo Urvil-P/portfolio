@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urvil Panchal</title>
+ 
+     <!-- google fonts cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;900&family=Piazzolla:wght@200;300;400;900&family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- font-awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav >
+                <img src="images/banner.png" alt="logo" class="logo">  
+                    <ul id="sidemenu" >
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Expertise</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark"></i>
+                </ul> 
+                <i class="fa-solid fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I am <br><span style="color: #ff004f;">Urvil Panchal</span></h1>
+               <p class="effect">Junior <span class="underline">Data Scientist . . . . .</span></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- About************************************************************************************* -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/White.jpg" alt="user_profile">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="sub-about">I am a passionate data scientist with nearly a year of experience. I am deeply intrested in generative AI, deep learning, and machine learning, with a focus on building intelligent systems and models to solve complex problems.</p>
+                   <div class="tab-titles">
+                    <p class="tab-links active-link" data-target="skills" >Skills</p>
+                    <p class="tab-links"  data-target="courses"  >Courses</p>
+                    <p class="tab-links"  data-target="education" >Education</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="skills" >
+                    <ul>
+                        <li><span>Gen-AI</span><br>LLMs/DIFFUSION-MODELS</li>
+                        <li><span>Deep Learning</span><br>COMPUTERVISION/NLP</li>
+                        <li><span>Machine Learning</span><br>REGRESSION/CLASSIFICATION/CLUSTERING</li>
+                        <li><span>Languages</span><br>Python</li>
+                    </ul>
+                   </div>
+
+                   <div class="tab-contents" id="courses" >
+                    <ul>
+                        <li><span>Generative AI Project</span><br>Built a GPT-based chatbot for customer service automation, capable of human-like conversation and resolving user queries.</li>
+                        <li><span>Deep Learning Model</span><br>Developed a CNN for image classification with over 90% accuracy on a custom dataset.</li>
+                        <li><span>Predictive Modeling</span><br>Created a machine learning model to predict customer churn with 85% accuracy.</li>
+                    </ul>
+                   </div>
+
+                   <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2015-2018</span><br>Angels School, Deesa</li>
+                        <li><span>2018-2020</span><br>Ascent School of Science, Palanpur</li>
+                        <li><span>2020-2024</span><br>Ahmedabad Institute of Technology, GTU</li>
+                    </ul>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- services*************************************************************************************-->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title sub-exp">My Expertise</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-robot"></i>
+                    <h2>Generative AI & LLMs</h2>
+                    <p class="sub-services">Experienced in building and fine-tuning large language models (LLMs) such as GPT and BERT to solve NLP tasks and generate human-like text for applications like chatbots, text summarization, and more.</p>
+                    <a href="https://www.linkedin.com/in/urvil-panchal-138144198/">Learn More</a>
+                </div>
+                <div>
+                    <i class="fas fa-brain"></i>
+                    <h2>Deep Learning</h2>
+                    <p class="sub-services">Proficient in deep learning frameworks like TensorFlow and Pytorch, with hands-on experience in developing models for image processing, natural language processing, and sequential data.</p>
+                    <a href="https://www.linkedin.com/in/urvil-panchal-138144198/">Learn More</a>
+                </div>
+                <div>
+                    <i class="fas fa-chart-line"></i>
+                    <h2>Machine Learning</h2>
+                    <p class="sub-services">Skilled in applying machine learning algorithms to solve various classification, regression, and clustering tasks for business use cases.</p>
+                    <a href="https://www.linkedin.com/in/urvil-panchal-138144198/">Learn More</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- portfolio***************************************************************************************** -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title sub-pro">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/NSFW.jpg" alt="NSFW.jpg" height="250px">
+                    <div class="layer">
+                        <h3>NSFW Detection System</h3>
+                        <p>
+                            Developed a YOLO based NSFW Detection System that can detect the NSFW content from images and videos.
+                        </p>
+                        <a href="https://github.com/Urvil-Panchal"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/RAG_Doc.jpg" alt="RAG_Doc.jpg" height="250px">
+                    <div class="layer">
+                        <h3>Document Summarizer</h3>
+                        <p>
+                            Developed a RAG-based application powered by LLM for question-answering with input from PDFs and text documents.
+                        </p>
+                        <a href="https://github.com/Urvil-Panchal"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images\Door_Detection.jpg" alt="Door_Detection.jpg" height="250px">
+                    <div class="layer">
+                        <h3>Door Detection</h3>
+                        <p>
+                            Developed a door detection system for floor-plan images by annotating over 8,000 doors, fine-tuning Facebook's DeTr model on custom data.
+                        </p>
+                        <a href="https://github.com/Urvil-Panchal"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/Urvil-Panchal" class="btn">See More</a>
+        </div>
+    </div>
+
+
+    <!-- contact******************************************************************************************* -->
+    <div id="contact">
+        <div class="container">
+            <div class="Row">
+                <div class="contact-left">
+                    <h1 class="sub-title sub-con">Contact Me</h1>
+                    <p class="contact_"><i class="fa-solid fa-paper-plane"></i><a href="mailto:urvilpanchal13@gmail.com">urvilpanchal13@gmail.com</a></p>
+                    <p class="contact_"><i class="fa-solid fa-square-phone"></i><a href="tel:+91 9016760721">+91 9016760721</a></p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/urvil-panchal-138144198/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Urvil-Panchal"><i class="fab fa-github"></i></a>
+                        <!-- <a href="https://www.leetcode.com"> -->
+                            <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                                <path d="M16.102 17.93l-2.697 2.607c-.466.467-1.111.662-1.823.662s-1.357-.195-1.824-.662l-4.332-4.363c-.467-.467-.702-1.15-.702-1.863s.235-1.357.702-1.824l4.319-4.38c.467-.467 1.125-.645 1.837-.645s1.357.195 1.823.662l2.697 2.606c.514.515 1.365.497 1.9-.038.535-.536.553-1.387.039-1.901l-2.609-2.636a5.055 5.055 0 0 0-2.445-1.337l2.467-2.503c.516-.514.498-1.366-.037-1.901-.535-.535-1.387-.552-1.902-.038l-10.1 10.101c-.981.982-1.494 2.337-1.494 3.835 0 1.498.513 2.895 1.494 3.875l4.347 4.361c.981.979 2.337 1.452 3.834 1.452s2.853-.512 3.835-1.494l2.609-2.637c.514-.514.496-1.365-.039-1.9s-1.386-.553-1.899-.039zM20.811 13.01H10.666c-.702 0-1.27.604-1.27 1.346s.568 1.346 1.27 1.346h10.145c.701 0 1.27-.604 1.27-1.346s-.569-1.346-1.27-1.346z"/>
+                            </svg> -->
+                        </a>
+                        
+                    </div>
+                    <a href="images/Urvil_Panchal_.pdf" download class="btn btn2">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+
+</body>
+</html>
