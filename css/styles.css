@@ -350,7 +350,7 @@
 
 .work-list {
    display: grid;
-   grid-template-columns: repeat(3, 1fr); 
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Changed from repeat(3, 1fr) to auto-fit */
    gap: 40px;
    justify-content: center;
    align-items: center; 
