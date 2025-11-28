@@ -986,12 +986,14 @@ section {
 
 .contact {
     background: var(--bg-secondary);
+    padding-top: var(--spacing-md);
+    padding-bottom: var(--spacing-xl);
 }
 
 .contact-content {
     display: flex;
     justify-content: center;
-    margin-top: var(--spacing-lg);
+    margin-top: var(--spacing-md);
 }
 
 .contact-info.centered {
