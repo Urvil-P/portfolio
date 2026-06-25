@@ -684,6 +684,31 @@ section {
     display: block;
 }
 
+.tab-content {
+    max-height: 320px;
+    overflow-y: auto;
+    padding-right: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--border-color) transparent;
+}
+
+.tab-content::-webkit-scrollbar {
+    width: 6px;
+}
+
+.tab-content::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.tab-content::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+    border-radius: 3px;
+}
+
+.tab-content::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-primary);
+}
+
 .timeline {
     position: relative;
     padding-left: var(--spacing-md);
@@ -703,6 +728,10 @@ section {
     position: relative;
     margin-bottom: var(--spacing-md);
     padding-left: var(--spacing-md);
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0;
 }
 
 .timeline-marker {
@@ -759,6 +788,18 @@ section {
     font-size: 2rem;
     color: var(--accent-primary);
     margin-bottom: var(--spacing-xs);
+}
+
+.cert-card img {
+    height: 48px;
+    width: auto;
+    object-fit: contain;
+    margin-bottom: var(--spacing-xs);
+    transition: transform var(--transition-base);
+}
+
+.cert-card:hover img {
+    transform: scale(1.1);
 }
 
 .cert-card h4 {

@@ -4,7 +4,7 @@
 
 const typingTexts = [
     'Data Scientist',
-    'ML Enthusiast',
+    'AI Engineer',
     'Deep Learning Practitioner'
 ];
 
